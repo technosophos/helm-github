@@ -1,0 +1,6 @@
+name: "github"
+version: "0.1.0"
+usage: "Provide GitHub and GitHub Pages support to Helm"
+description: |-
+  This plugin provides GitHub services to Helm.
+command: "$HELM_PLUGIN_DIR/github.sh"
