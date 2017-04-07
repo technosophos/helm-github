@@ -1,21 +1,20 @@
-# Helm Plugins
+# Helm Github Plugin
 
-This repository contains several Helm plugins, along with an installation script.
+GitHub and GitHub Pages integration with Helm.
 
-## Plugins
+This provides tools for working with GitHub. Mainly, it is for using
+GitHub Pages as a chart repository by storing charts in the 'docs/' directory
+of the current project.
 
-- `keybase`: Provide Keybase integration to Helm
-- `github`: Provide GitHub integration to Helm
-- `env`: Display the environment passed to a plugin.
-- `hello`: An example of a basic Helm plugin
+GitHub pages provide a "website" for your GtHub project. We can use GitHub pages
+serve Helm charts. For an exaple, see the https://github.com/technosophos/tscharts
+
+Available Commands:
+
+- push Push a chart (repository) to GitHub pages.
 
 ## Installation
 
-1. Set HELM_HOME: `export HELM_HOME=$(helm home)`
-2. Run `make install`.
-
-## Usage
-
-- Run `helm help` to see the new plugins.
-- Run `helm keybase --help` for keybase help.
-- Run `helm github --help` for github help.
+```console
+$ helm plugin install https://github.com/technosophos/helm-github
+```
