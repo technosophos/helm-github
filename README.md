@@ -6,8 +6,8 @@ This provides tools for working with GitHub. Mainly, it is for using
 GitHub Pages as a chart repository by storing charts in the 'docs/' directory
 of the current project.
 
-GitHub pages provide a "website" for your GtHub project. We can use GitHub pages
-serve Helm charts. For an exaple, see the https://github.com/technosophos/tscharts
+GitHub pages provide a "website" for your GitHub project. We can use GitHub pages
+serve Helm charts. For an example, see the https://github.com/technosophos/tscharts
 
 Available Commands:
 
